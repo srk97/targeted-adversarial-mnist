@@ -45,3 +45,9 @@ This result can be fine tuned by conditional update depending on the classificat
 ### TO-DO
 - Refactor
 - One pixel attack with Differential Evolution
+- Momentum
+
+# References
+- [karpathy's blog](http://karpathy.github.io/2015/03/30/breaking-convnets/)
+- [One pixel attack](https://arxiv.org/abs/1710.08864)
+- [Boosting Adversarial Attacks with Momentum](https://arxiv.org/pdf/1710.06081.pdf)
