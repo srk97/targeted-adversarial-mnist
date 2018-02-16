@@ -40,6 +40,6 @@ The default parameters are: `e=0.01` and `num_steps=25`.
 
 This result can be fine tuned by conditional update depending on the classification outcome. 
 
-## TO-DO
+### TO-DO
 - Refactor
 - One pixel attack with Differential Evolution
