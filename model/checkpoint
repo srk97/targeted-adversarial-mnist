@@ -1,0 +1,2 @@
+model_checkpoint_path: "deepnn"
+all_model_checkpoint_paths: "deepnn"
