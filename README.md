@@ -32,6 +32,7 @@ The image is modified by taking the gradient of the cost function w.r.t the inpu
 ![equation](https://image.ibb.co/cHaamS/ifgsm.png)
 
 The pre-trained model is present in the `model` folder. So, the adversary script can be run directly.
+
 `python adversary.py -i 2 -t 6`
 
 The default parameters are: `e=0.01` and `num_steps=25`.
