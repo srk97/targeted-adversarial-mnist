@@ -24,7 +24,8 @@ The `adversary.py` file creates the adversarial examples.  It takes 2 arguments
 - `--input_class` or `-i`
 - `--target_class` or `-t`
 
-Input class is the actual label of the input image
+Input class is the actual label of the input image.
+
 Target class is the label that we want the network to predict for the input image
 
 The image is modified by taking the gradient of the cost function w.r.t the input.
