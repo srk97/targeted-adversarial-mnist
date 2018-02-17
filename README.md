@@ -35,15 +35,13 @@ The pre-trained model is present in the `model` folder. So, the adversary script
 
 `python adversary.py -i 2 -t 6`
 
-The default parameters are: `e=0.01` and `num_steps=25`.
+The default parameters are: `EPSILON=0.01` and `SAMPLE_SIZE=10`.
 
 ## Result
 ![result](image.jpg)
 
-This result can be fine tuned by conditional update depending on the classification outcome. 
-
 ### TO-DO
-- Refactor
+- ~~Refactor~~
 - One pixel attack with Differential Evolution
 - Momentum
 
