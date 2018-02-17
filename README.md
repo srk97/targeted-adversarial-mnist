@@ -41,7 +41,7 @@ The default parameters are: `EPSILON=0.01` and `SAMPLE_SIZE=10`.
 ![result](image.jpg)
 
 ### TO-DO
-- Refactor
+- ~~Refactor~~
 - One pixel attack with Differential Evolution
 - Momentum
 
