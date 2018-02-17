@@ -1,5 +1,5 @@
 # targeted-adversarial-mnist
-Adversarial attack on a CNN trained on MNIST dataset using Iterative Targeted Fast Gradient Sign Method
+Adversarial attack on a CNN trained on MNIST dataset using Targeted Iterative Fast Gradient Sign Method and Targeted Momentum Iterative Fast Gradient Method
 
 ### Dependencies
 - Tensorflow
