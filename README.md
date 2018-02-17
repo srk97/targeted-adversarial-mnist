@@ -19,8 +19,8 @@ The `model.py` file defines the architecture and saves the trained model.
 - Relu activation
 - Dropout
 - Fully Connected Layer 2 with `10` out units (representing 10 classes of the dataset)
-
-The `adversary.py` file creates the adversarial examples.  It takes 2 arguments
+# Targeted I-FGSM
+The `adversary.py` script creates the adversarial examples.  It takes 2 arguments
 - `--input_class` or `-i`
 - `--target_class` or `-t`
 
@@ -40,10 +40,24 @@ The default parameters are: `EPSILON=0.01` and `SAMPLE_SIZE=10`.
 ## Result
 ![result](image.jpg)
 
+
+# Targeted MI-FGM
+The `adversary_momentum.py` script creates adversarial examples using the momentum update. It takes the same arguments as the `adversary.py` script
+The update equations are:
+
+![momentum](https://image.ibb.co/egbvMS/velocity_vector.png)
+
+![image_update](https://image.ibb.co/cmdmT7/x_update.png)
+
+The default parameters are: `MU=1`,`EPSILON=0.01` and `SAMPLE_SIZE=10`.
+
+## Result
+![result](image_momentum.jpg)
+
 ### TO-DO
 - ~~Refactor~~
 - One pixel attack with Differential Evolution
-- Momentum
+- ~~Momentum~~
 
 # References
 - [karpathy's blog](http://karpathy.github.io/2015/03/30/breaking-convnets/)
